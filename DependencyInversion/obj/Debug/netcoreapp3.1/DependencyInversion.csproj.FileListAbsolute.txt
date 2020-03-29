@@ -1,0 +1,11 @@
+C:\dev\dotnetworkspeace\SOLID\DependencyInversion\bin\Debug\netcoreapp3.1\DependencyInversion.exe
+C:\dev\dotnetworkspeace\SOLID\DependencyInversion\bin\Debug\netcoreapp3.1\DependencyInversion.deps.json
+C:\dev\dotnetworkspeace\SOLID\DependencyInversion\bin\Debug\netcoreapp3.1\DependencyInversion.runtimeconfig.json
+C:\dev\dotnetworkspeace\SOLID\DependencyInversion\bin\Debug\netcoreapp3.1\DependencyInversion.runtimeconfig.dev.json
+C:\dev\dotnetworkspeace\SOLID\DependencyInversion\bin\Debug\netcoreapp3.1\DependencyInversion.dll
+C:\dev\dotnetworkspeace\SOLID\DependencyInversion\bin\Debug\netcoreapp3.1\DependencyInversion.pdb
+C:\dev\dotnetworkspeace\SOLID\DependencyInversion\obj\Debug\netcoreapp3.1\DependencyInversion.csprojAssemblyReference.cache
+C:\dev\dotnetworkspeace\SOLID\DependencyInversion\obj\Debug\netcoreapp3.1\DependencyInversion.AssemblyInfoInputs.cache
+C:\dev\dotnetworkspeace\SOLID\DependencyInversion\obj\Debug\netcoreapp3.1\DependencyInversion.AssemblyInfo.cs
+C:\dev\dotnetworkspeace\SOLID\DependencyInversion\obj\Debug\netcoreapp3.1\DependencyInversion.dll
+C:\dev\dotnetworkspeace\SOLID\DependencyInversion\obj\Debug\netcoreapp3.1\DependencyInversion.pdb
