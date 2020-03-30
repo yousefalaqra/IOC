@@ -1,8 +1,8 @@
 using System;
 
-public class Emailer : IMessageSender{
+public class Emailer {
     
-    public void SendEmail(IPerson owner, string message){
+    public void SendEmail(Owner owner, string message){
         Console.WriteLine($"email to: {owner.FirstName},  message: { message }");
     }
 }

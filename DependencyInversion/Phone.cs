@@ -1,24 +1,17 @@
-public class Phone : IProduct{
+public class Phone {
     
-    private ILogger _logger;
-    private IMessageSender _emailer;
     public string Name { get; set; }
-    public IPerson Owner { get; set; }
+    public Owner Owner { get; set; }
     
     public int Quantity { get; set; }
     public bool IsAvilable { get;  set; } 
 
     public Phone(
-        int quantity,
-        IMessageSender emailer,
-        ILogger logger
+        int quantity
     )
     {
         this.Quantity = quantity;
         this.IsAvilable = this.Quantity > 0;
-
-        _logger = logger; 
-        _emailer = emailer;
     }
 
     public void PurchaseItme(int quantity){
@@ -30,6 +23,10 @@ public class Phone : IProduct{
         // in this case we should try to ask the user to purchase the item again with the avalible quantity.
         // fail purchase:
         // case: when isAvalible is equlas to flase.
+
+      var _logger = new Logger();
+      var _emailer = new Emailer();  
+
 
       if(this.IsAvilable){  
           if(quantity <= this.Quantity){

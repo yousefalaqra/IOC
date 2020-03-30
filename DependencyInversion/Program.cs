@@ -8,15 +8,19 @@ namespace DependencyInversion
         {
 
 
-            IPerson Owner = Factory.CreatePerson();
-            Owner.ContactNumber = "+970-59-567-5811";
-            Owner.EmailAdress = "yousif.arqa@gmail.com";
-            Owner.FirstName = "Jo";
-            Owner.SecondName = "Aqra";
+            Owner Owner = new Owner
+            {     
+                ContactNumber = "+970-59-567-5811",
+                EmailAdress = "yousif.arqa@gmail.com",
+                FirstName = "Jo",
+                SecondName = "Aqra"
+            };
 
-            IProduct phoneItme = Factory.CreateProduct();
-            phoneItme.Name = "IPhone 11";
-            phoneItme.Owner = Owner;
+            Phone phoneItme = new Phone(10)
+            {
+                Name = "IPhone 11",
+                Owner = Owner
+            };
 
 
             phoneItme.PurchaseItme(Int32.Parse(args[0]));

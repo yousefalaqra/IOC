@@ -1,4 +1,4 @@
-public class Owner : IPerson {
+public class Owner {
     public string FirstName { get; set; }
     public string SecondName { get; set; }
     public string ContactNumber { get; set; }
