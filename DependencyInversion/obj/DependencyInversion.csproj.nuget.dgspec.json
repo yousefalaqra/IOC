@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\dotnetworkspeace\\solid\\DependencyInversion\\DependencyInversion.csproj": {}
+    "C:\\dev\\dotnetworkspeace\\SOLID\\DependencyInversion\\DependencyInversion.csproj": {}
   },
   "projects": {
-    "C:\\dev\\dotnetworkspeace\\solid\\DependencyInversion\\DependencyInversion.csproj": {
+    "C:\\dev\\dotnetworkspeace\\SOLID\\DependencyInversion\\DependencyInversion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\dotnetworkspeace\\solid\\DependencyInversion\\DependencyInversion.csproj",
+        "projectUniqueName": "C:\\dev\\dotnetworkspeace\\SOLID\\DependencyInversion\\DependencyInversion.csproj",
         "projectName": "DependencyInversion",
-        "projectPath": "C:\\dev\\dotnetworkspeace\\solid\\DependencyInversion\\DependencyInversion.csproj",
+        "projectPath": "C:\\dev\\dotnetworkspeace\\SOLID\\DependencyInversion\\DependencyInversion.csproj",
         "packagesPath": "C:\\Users\\غخعسيثب\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\dotnetworkspeace\\solid\\DependencyInversion\\obj\\",
+        "outputPath": "C:\\dev\\dotnetworkspeace\\SOLID\\DependencyInversion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -41,6 +41,22 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
